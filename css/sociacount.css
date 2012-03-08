@@ -1,0 +1,32 @@
+.sociacount a {
+    display: inline;
+    float: left;
+    margin-right: 20px;
+	outline: none;
+	font: 13px 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+.sociacount a span {
+    float: left;
+    height: 16px;
+    margin-right: 5px;
+    text-indent: -9999px;
+    width: 16px;
+}
+.sociacount a span.facebook {
+	background: url(../img/facebook-16x16.png) no-repeat scroll 0 0 transparent;
+}
+.sociacount a span.twitter {
+	background: url(../img/twitter-16x16.png) no-repeat scroll 0 0 transparent;
+}
+.sociacount a span.youtube {
+	background: url(../img/youtube-16x16.png) no-repeat scroll 0 0 transparent;
+}
+.sociacount a span.feed {
+	background: url(../img/feed-16x16.png) no-repeat scroll 0 0 transparent;
+}
+.sociacount a span.digg {
+	background: url(../img/digg-16x16.png) no-repeat scroll 0 0 transparent;
+}
+.sociacount a span.github {
+	background: url(../img/github-16x16.png) no-repeat scroll 0 0 transparent;
+}
