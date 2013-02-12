@@ -19,19 +19,19 @@ $access_token_secret = 'putYourAccessTokenSecretHere';
 
 Using script in HTML template
 ----------
-&lt;script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;  
-&lt;script type="text/javascript" src="jquery.sociacount.js"&gt;&lt;/script&gt;  
-&lt;script type="text/javascript"&gt;   
-	$(document).ready(function() {  
-		$("#social").sociacount({  
-			facebook: 'forbes',  
-			twitter: 'forbes',  
-			youtube: 'forbes',  
-			dribbble: 'frogandcode',  
-			forrst: 'kyle',  
-			github: 'fat',  
-			vimeo: 'soxiam',  
-			ajaxurl: window.location.pathname+'sociacount.php'  
-		});  
-	});  
-&lt;/script&gt;  
+<pre class="php">&lt;script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="jquery.sociacount.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt; 
+    $(document).ready(function() {
+        $("#social").sociacount({
+            facebook: 'forbes',
+            twitter: 'forbes',
+            youtube: 'forbes',
+            dribbble: 'frogandcode',
+            forrst: 'kyle',
+            github: 'fat',
+            vimeo: 'soxiam',
+            ajaxurl: window.location.pathname+'sociacount.php'
+        });
+    });
+&lt;/script&gt;</pre>
