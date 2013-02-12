@@ -10,12 +10,12 @@ Fill the Twitter API key
 Open "sociacount.php" and fill the your Twitter API key. 
 If you don’t have it, your can create a Twitter API key here:
 http://goo.gl/kQWyX
-
+<pre>
 $consumer_key        = 'putYourConsumerKeyHere';  
 $consumer_secret     = 'putYourConsumerSecretHere';  
 $access_token        = 'putYourAccessTokenHere';  
 $access_token_secret = 'putYourAccessTokenSecretHere';  
-
+</pre>
 
 Using script in HTML template
 ----------
