@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Sociacount - A jQuery + PHP Social Counter</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	
+	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.sociacount.js"></script>
+	
+	<script type="text/javascript">  		
+		// Centering the text content
+		$(document).ready(function() {
+			$("#social").sociacount({
+				facebook: 'forbes',
+				twitter: 'forbes',
+				youtube: 'forbes',
+				dribbble: 'frogandcode',
+				forrst: 'kyle',
+				github: 'fat',
+				vimeo: 'soxiam',
+				ajaxurl: window.location.pathname+'sociacount.php'
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="social" class="sociacount"></div>
+	<p>
+		How To:<br />
+		<strong>1. Insert this code in head section.</strong>
+<pre>
+&lt;script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="jquery.sociacount.0.1.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt; 
+	$(document).ready(function() {
+		$("#social").sociacount({
+			facebook: 'forbes',
+			twitter: 'forbes',
+			youtube: 'forbes',
+			dribbble: 'frogandcode',
+			forrst: 'kyle',
+			github: 'fat',
+			vimeo: 'soxiam',
+			ajaxurl: 'sociacount.php'
+		});
+	});
+&lt;/script&gt;
+</pre>
+	
+		<strong>2. Create HTML container</strong>
+		<pre>&lt;p id="social" class="sociacount"&gt;&lt;/p&gt;</pre>
+	</p>
+    <a href="https://twitter.com/zourbuth" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @zourbuth</a>
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://zourbuth.com/archives/788/get-social-bookmark-counts-with-sociacount/">Tweet This</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</body>
+</html>

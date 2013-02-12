@@ -1,0 +1,44 @@
+body {
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 auto;
+    width: 960px;
+}
+a {
+    text-decoration: none;
+	color: #333333;
+}
+
+/* Sociacount
+--------------------------------------------------------*/
+#social {
+	font-size: 11px;
+	position: relative;
+	min-height: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+#social a {
+    border: 1px solid #4D4D4D;
+    border-radius: 2px 2px 2px 2px;
+    display: inline;
+    margin-right: 20px;
+    padding: 2px 5px 2px 0;
+	font-weight: bold;
+}
+#social a:last-child {
+    margin-right: 0;
+}
+#social a span {
+	padding: 2px 5px;
+	margin-right: 5px;
+    color: #FFFFFF; 
+    background: none repeat scroll 0 0 #4D4D4D;
+	text-shadow: none;
+}
+#social span.loadingsc {
+    margin-right: 20px;
+	float: left;
+}

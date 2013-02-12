@@ -1,4 +1,6 @@
-sociacount
+Sociacount
 ==========
 
-Display the media count for facebook, twitter, feedburner. digg and others
+Sociacount is a jQuery plugin + PHP for displaying the total of your social profile subscriber or follower on popular site 
+including Facebook, Twitter, Github, Youtube, Dribbble, Forrst and Vimeo.
+
