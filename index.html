@@ -35,7 +35,7 @@
 		<strong>1. Insert this code in head section.</strong>
 <pre>
 &lt;script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="jquery.sociacount.0.1.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="jquery.sociacount.0.1.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript"&gt; 
 	$(document).ready(function() {
 		$("#social").sociacount({
@@ -46,7 +46,7 @@
 			forrst: 'kyle',
 			github: 'fat',
 			vimeo: 'soxiam',
-			ajaxurl: 'sociacount.php'
+			ajaxurl: window.location.pathname+'sociacount.php'
 		});
 	});
 &lt;/script&gt;

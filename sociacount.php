@@ -1,6 +1,6 @@
 <?php
 /*
-Social Counter 0.0.1
+Socialcount 0.0.1
 
 Copyright 2013  zourbuth.com  (email : zourbuth@gmail.com)
 
@@ -18,22 +18,12 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 **/
 
-// Fill you social username below
-// Let the others social profile as it is when not in use
-$facebook 	= 'forbes';
-$twitter 	= 'forbes';
-$youtube 	= 'forbes';
-$dribbble	= 'frogandcode';
-$forrst 	= 'kyle';
-$github 	= 'fat';
-$vimeo 		= 'soxiam';
-
 // Fill your Twitter API credential below
 // Read how to get your Twitter API http://goo.gl/kQWyX
-$consumer_key		 = 'TnJE9PvOy48nI3S4UcQPg';
-$consumer_secret	 = '50bH5KH0RdMM5dabcSjwmZN8EBKaMbNLcPKXosY';
-$access_token 		 = '105026468-oET0TOnp8LHmhuBTK8JJILK67oh0Sh3LieoYmBcM';
-$access_token_secret = 'dZu31UzMPJp1C4LhTqh950saaBklGPp0Kfsc1woUpPQ';
+$consumer_key        = 'putYourConsumerKeyHere';  
+$consumer_secret     = 'putYourConsumerSecretHere';  
+$access_token        = 'putYourAccessTokenHere';  
+$access_token_secret = 'putYourAccessTokenSecretHere';
 
 require( 'library/twitteroauth/twitteroauth.php' );
 
