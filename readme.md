@@ -18,9 +18,9 @@ $access_token_secret = 'putYourAccessTokenSecretHere';
 
 Using script in HTML template.
 ----------
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>  
-<script type="text/javascript" src="jquery.sociacount.js"></script>  
-<script type="text/javascript">   
+&lt;script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;  
+&lt;script type="text/javascript" src="jquery.sociacount.js"&gt;&lt;/script&gt;  
+&lt;script type="text/javascript"&gt;   
 	$(document).ready(function() {  
 		$("#social").sociacount({  
 			facebook: 'forbes',  
@@ -33,4 +33,4 @@ Using script in HTML template.
 			ajaxurl: window.location.pathname+'sociacount.php'  
 		});  
 	});  
-</script>  
+&lt;/script&gt;  
