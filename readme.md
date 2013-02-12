@@ -33,5 +33,5 @@ Using script in HTML template
             vimeo: 'soxiam',
             ajaxurl: window.location.pathname+'sociacount.php'
         });
-    });
+    }); 
 &lt;/script&gt;</pre>
